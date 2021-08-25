@@ -14,4 +14,3 @@ mysql-connector-python==8.0.20
 # MarkupSafe==1.1.1
 # uWSGI==2.0.18
 # Werkzeug==0.15.3
-
