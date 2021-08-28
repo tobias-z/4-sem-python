@@ -8,16 +8,23 @@ on:
 
 jobs:
   build:
+    strategy:
+      matrix:
+        python: [3.7, 3.9]
+
     runs-on: ubuntu-latest
 
     steps:
+      - name: 🛑 Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.0
+
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v2
 
       - name: ⎔ Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.7
+          python-version: ${{ matrix.python }}
 
       - name: ⏭ Install dependencies
         run: |
