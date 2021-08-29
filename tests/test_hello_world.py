@@ -8,13 +8,13 @@ import pytest
 
 class TestHelloWorld:
     def setup(self):
-        pass
+        self.hello = "Hello world"
 
     def teardown(self):
         pass
 
     def test_get_hello_world(self):
-        assert get_hello_world() == "Hello world"
+        assert get_hello_world() == self.hello
 
 
 #################################################################################
@@ -24,7 +24,6 @@ class TestHelloWorld:
 @pytest.fixture(autouse=True)
 def run_before_and_after_tests():
     # Setup
-    pass
     yield
     # Teardown
     pass
