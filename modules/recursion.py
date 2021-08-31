@@ -17,7 +17,7 @@ my_list = [
     {
         "name": "Tobias",
         "children": [
-            {"name": "Tobias child", "children": []},
+            {"name": "Tobias childd", "children": []},
             {"name": "Tobias child2", "children": []},
         ],
     },
