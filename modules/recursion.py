@@ -1,7 +1,4 @@
-from typing import Any
-
-
-my_people = [
+my_list = [
     {
         "name": "Bob",
         "children": [
@@ -24,7 +21,7 @@ my_people = [
 ]
 
 
-def print_people(people: "list[dict[str, Any]]"):
+def print_people(people):
     if len(people) == 0:
         return
     for person in people:
@@ -33,4 +30,4 @@ def print_people(people: "list[dict[str, Any]]"):
 
 
 if __name__ == "__main__":
-    print_people(my_people)
+    print_people(my_list)
