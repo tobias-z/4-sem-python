@@ -1,3 +1,6 @@
+from typing import List
+
+
 my_list = [
     {
         "name": "Bob",
@@ -36,7 +39,7 @@ def print_people(people):
 # Flatten people returning only their names in a list
 
 
-def flatten_people(people, flattened_people: "list[str]"):
+def flatten_people(people, flattened_people: List[str]):
     result = []
 
     for person in people:

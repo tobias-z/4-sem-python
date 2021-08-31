@@ -9,7 +9,7 @@ def print_file_content(file_name):
             print(line.rstrip())
 
 
-def write_list_to_file(output_file: str, *lines):
+def write_list_to_file(output_file: str, *lines: str):
     with open(output_file, "w") as file:
         for idx, line in enumerate(lines):
             line_to_use = line

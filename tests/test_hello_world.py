@@ -1,20 +1,21 @@
-from modules.hello_world import get_hello_world
-import pytest
+import unittest
 
+import pytest
+from modules.hello_world import get_hello_world
 
 #################################################################################
 # Class way of testing
 
 
-class TestHelloWorld:
-    def setup(self):
+class TestHelloWorld(unittest.TestCase):
+    def setUp(self):
         self.hello = "Hello world"
 
-    def teardown(self):
+    def tearDown(self):
         pass
 
     def test_get_hello_world(self):
-        assert get_hello_world() == self.hello
+        self.assertEqual(get_hello_world(), self.hello)
 
 
 #################################################################################

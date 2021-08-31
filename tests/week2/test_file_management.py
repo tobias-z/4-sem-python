@@ -17,4 +17,4 @@ class Test(unittest.TestCase):
 
     def test_write_list_to_file(self):
         write_list_to_file(FILE_NAME, "test", "one", "two", "tree")
-        self.assertEquals(read_csv(FILE_NAME)[0], "test\n")
+        self.assertEqual(read_csv(FILE_NAME)[0], "test\n")
