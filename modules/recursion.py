@@ -36,10 +36,7 @@ def print_people(people):
 # Flatten people returning only their names in a list
 
 
-def flatten_people(people, flattened_people: list):
-    if len(people) == 0:
-        return
-
+def flatten_people(people, flattened_people: "list[str]"):
     result = []
 
     for person in people:
