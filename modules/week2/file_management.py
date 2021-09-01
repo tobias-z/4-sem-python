@@ -1,6 +1,6 @@
 import argparse
 
-FILE_NAME = "output.csv"
+FILE_NAME = "files/output.csv"
 
 
 def print_file_content(file_name):
@@ -26,7 +26,7 @@ def read_csv(file_name):
         return result
 
 
-def deturmine_cli_action(args):
+def determine_cli_action(args: argparse.Namespace):
     if args.file is None:
         return print_file_content(args.path)
 
@@ -40,4 +40,4 @@ if __name__ == "__main__":
     parser.add_argument("--file", help="The file you want to write to")
 
     args = parser.parse_args()
-    deturmine_cli_action(args)
+    determine_cli_action(args)
