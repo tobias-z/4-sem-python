@@ -57,7 +57,3 @@ def write_headlines(md_files: List[str], out=OUTPUT):
                 for line in file.readlines():
                     if line.startswith("#"):
                         output_file.write(line)
-
-
-if __name__ == "__main__":
-    write_headlines()
