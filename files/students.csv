@@ -1,0 +1,12 @@
+stud_name, course_name, teacher_name, gender, ects, classroom, grade, img_url
+Tobias, English, Coleen, MALE, ?, 201, 12, https://student-image.com/tobias
+Tobias, CS, Thomas, MALE, ?, 105, 2, https://student-image.com/tobias
+Tobias, Danish, Jens, MALE, ?, 102, 2, https://student-image.com/tobias
+Tobias, Math, Patrik, MALE, ?, 10, 4, https://student-image.com/tobias
+Tobias, History, Jon, MALE, ?, 7, 4, https://student-image.com/tobias
+Someone, CS, Thomas, FEMALE, ?, 105, 10, https://student-image.com/someone
+Someone, English, Coleen, FEMALE, ?, 201, 12, https://student-image.com/someone
+Someone, Danish, Jens, FEMALE, ?, 102, 0, https://student-image.com/someone
+Someone, CS, Thomas, FEMALE, ?, 105, 10, https://student-image.com/someone
+Someone, English, Coleen, FEMALE, ?, 201, 10, https://student-image.com/someone
+Someone, History, Jon, FEMALE, ?, 7, 12, https://student-image.com/someone

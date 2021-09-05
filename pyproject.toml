@@ -1,7 +1,7 @@
 # pyproject.toml
 [tool.pytest.ini_options]
 minversion = "6.0"
-addopts = "-rafE -q"
+addopts = "-rafE -q -s"
 testpaths = [
     "tests",
 ]
