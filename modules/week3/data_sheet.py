@@ -11,3 +11,6 @@ class DataSheet:
 
     def get_grades_as_list(self):
         return [course.grade for course in self.courses if course.grade is not None]
+
+    def get_ects_points(self):
+        return [course.ECTS for course in self.courses]

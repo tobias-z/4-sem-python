@@ -20,8 +20,16 @@ class Student:
     def get_avg_grade(self):
         grades = self.data_sheet.get_grades_as_list()
         if len(grades) is 0:
-            return 0
+            return 0.0
+
+        if type(grades[0]) is str:
+            grades = list(map(int, grades))
         return sum(grades) / len(grades)
 
+    def get_progression(self):
+        ects_points = self.data_sheet.get_ects_points()
+        percent = (sum(ects_points) / 150) * 100
+        return percent
+
     def __repr__(self) -> str:
-        return f"name: {self.name}, gender: {self.gender}, img_url: {self.img_url} grades: {self.data_sheet.get_grades_as_list()} average grade: {self.get_avg_grade()}"
+        return f"name: {self.name}, img_url: {self.img_url}, average grade: {self.get_avg_grade()}\n"
