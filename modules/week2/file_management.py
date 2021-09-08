@@ -13,7 +13,7 @@ def write_list_to_file(output_file: str, *lines: str):
     with open(output_file, "w") as file:
         for idx, line in enumerate(lines):
             line_to_use = line
-            if not line.endswith("\n") and lines[idx] is not lines[-1]:
+            if not line.endswith("\n") and lines[idx] != lines[-1]:
                 line_to_use = line + "\n"
             file.write(line_to_use)
 

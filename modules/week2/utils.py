@@ -6,13 +6,9 @@ OUTPUT = "files/output.csv"
 FOLDER = "modules/week2/folders"
 
 
-def __get_dir(dir_path):
-    return os.listdir(dir_path)
-
-
 def get_file_names(folderpath, out=OUTPUT):
     """takes a path to a folder and writes all filenames in the folder to a specified output file"""
-    dir_list = __get_dir(folderpath)
+    dir_list = os.listdir(folderpath)
     with open(out, "w") as file:
         for line in dir_list:
             file.write(line + "\n")
@@ -25,12 +21,12 @@ def get_all_file_names(folderpath, out=OUTPUT):
         for line in dir:
             path_to_file = f"{folderpath}/{line}"
             if os.path.isdir(path_to_file):
-                write_dir_to_file(file, __get_dir(path_to_file), path_to_file)
+                write_dir_to_file(file, os.listdir(path_to_file), path_to_file)
                 continue
             file.write(line + "\n")
 
     with open(out, "w") as file:
-        write_dir_to_file(file, __get_dir(folderpath), folderpath)
+        write_dir_to_file(file, os.listdir(folderpath), folderpath)
 
 
 def print_line_one(file_names: List[str]):

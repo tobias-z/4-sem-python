@@ -71,7 +71,7 @@ GRADES = [0, 2, 4, 7, 10, 12]
 STUDENT_FILE = "files/students.csv"
 
 
-def __write_student_to_csv(file: TextIO, student: Student):
+def write_student_to_csv(file: TextIO, student: Student):
     for course in student.data_sheet.courses:
         row = f"{student.name}, {course.name}, {course.teacher}, {student.gender.value}, ?, {course.classroom}, {course.grade}, {student.img_url}\n"
         file.write(row)
@@ -123,7 +123,7 @@ def create_students(amount: int = len(STUDENTS)):
                 student_data["img_url"],
             )
 
-            __write_student_to_csv(file, student)
+            write_student_to_csv(file, student)
             students.append(student)
 
     return students
