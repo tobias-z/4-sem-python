@@ -41,5 +41,8 @@ class Student:
         except:
             return 0.0
 
+    def get_courses(self):
+        return self.data_sheet.courses
+
     def __repr__(self) -> str:
         return f"name: {self.name}, img_url: {self.img_url}, average grade: {self.get_avg_grade()} progression: {self.get_progression()}\n"
