@@ -73,7 +73,7 @@ STUDENT_FILE = "files/students.csv"
 
 def write_student_to_csv(file: TextIO, student: Student):
     for course in student.data_sheet.courses:
-        row = f"{student.name}, {course.name}, {course.teacher}, {student.gender.value}, ?, {course.classroom}, {course.grade}, {student.img_url}\n"
+        row = f"{student.name}, {course.name}, {course.teacher}, {student.gender.value}, {course.ECTS}, {course.classroom}, {course.grade}, {student.img_url}\n"
         file.write(row)
 
 
