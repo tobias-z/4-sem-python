@@ -7,9 +7,7 @@ my_list = [
         "children": [
             {
                 "name": "bob child",
-                "children": [
-                    {"name": "bob child's child", "children": []},
-                ],
+                "children": [{"name": "bob child's child", "children": []},],
             },
             {"name": "bob child2", "children": []},
         ],

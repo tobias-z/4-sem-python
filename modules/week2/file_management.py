@@ -35,7 +35,8 @@ def determine_cli_action(args: argparse.Namespace):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="A system to read and write to a file")
+    parser = argparse.ArgumentParser(
+        description="A system to read and write to a file")
     parser.add_argument("path", help="The path to your file")
     parser.add_argument("--file", help="The file you want to write to")
 
