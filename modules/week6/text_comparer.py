@@ -42,14 +42,17 @@ class TextComparer:
 
     def avg_vowels(self, filename):
         VOWELS = "aeiou"
-        result = 0
+        vovel_count = 0
+        letter_count = 0
         with open(filename, "r") as file:
             for line in file:
                 for word in line.split(" "):
                     for letter in word:
+                        letter_count += 1
                         if letter.lower() in VOWELS:
-                            result += 1
-        return (filename.split("/")[-1], result)
+                            vovel_count += 1
+        avg_in_percent = (vovel_count / letter_count) * 100
+        return (filename.split("/")[-1], avg_in_percent)
 
     def hardest_read(self):
         with ProcessPoolExecutor(multiprocessing.cpu_count()) as ex:
