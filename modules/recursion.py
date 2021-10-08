@@ -7,7 +7,7 @@ my_list = [
         "children": [
             {
                 "name": "bob child",
-                "children": [{"name": "bob child's child", "children": []},],
+                "children": [{"name": "bob child's child", "children": []}, ],
             },
             {"name": "bob child2", "children": []},
         ],
@@ -42,7 +42,8 @@ def flatten_people(people, flattened_people: List[str]):
 
     for person in people:
         flattened_people.append(person.get("name"))
-        result = [*result, *get_children(person.get("children"), flattened_people)]
+        result = [*result, *
+                  get_children(person.get("children"), flattened_people)]
 
     return result
 

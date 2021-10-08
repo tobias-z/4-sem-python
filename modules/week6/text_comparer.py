@@ -19,7 +19,7 @@ class TextComparer:
 
     def download(self, url: str, filename: str):
         res = requests.get(url)
-        if res.status_code is not 200:
+        if res.status_code != 200:
             raise NotFoundException(f"url: {url} was not found")
         with open(filename, "wb") as file:
             for chuck in res.iter_content(chunk_size=1024):
@@ -60,3 +60,8 @@ class TextComparer:
         return dict(
             item for item in sorted(list(res), key=lambda book: book[1], reverse=True)
         )
+
+
+if __name__ == "__main__":
+    comparer = TextComparer(["sometthing"])
+    comparer.multi_download()

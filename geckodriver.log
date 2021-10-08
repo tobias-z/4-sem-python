@@ -1,0 +1,941 @@
+1633677801131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileftGAcM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633677802106	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileftGAcM/search.json.mozlz4", (void 0)))
+1633677804597	Marionette	INFO	Listening on port 36071
+1633677804670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633677835264	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMnENEb"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633677835680	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMnENEb/search.json.mozlz4", (void 0)))
+1633677837901	Marionette	INFO	Listening on port 39407
+1633677838011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633678238543	addons.xpi	ERROR	System addon update list error Error: got node name: parsererror, expected: updates
+1633678314624	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSeSbr5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633678315125	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSeSbr5/search.json.mozlz4", (void 0)))
+1633678317269	Marionette	INFO	Listening on port 35145
+1633678317360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 64903, MediaDecoderStateMachine #1] WARNING: 7f5f27ef9200 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 64903, MediaDecoderStateMachine #1] WARNING: Decoder=7f5f32fe3400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 64903, MediaDecoderStateMachine #1] WARNING: Decoder=7f5f32fe3400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 64903, MediaDecoderStateMachine #1] WARNING: 7f5f277caba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 64903, MediaDecoderStateMachine #1] WARNING: Decoder=7f5f32fe3c00 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 64903, MediaDecoderStateMachine #1] WARNING: Decoder=7f5f32fe3c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 2421 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 2421 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633679999812	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesFYSsO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633680000642	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesFYSsO/search.json.mozlz4", (void 0)))
+1633680002835	Marionette	INFO	Listening on port 45455
+1633680002919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 82674, MediaDecoderStateMachine #1] WARNING: 7fc3e1990740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 82674, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3e19ac400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 82674, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3e19ac400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 82674, MediaDecoderStateMachine #1] WARNING: 7fc3e1990740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 82674, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3e19a9800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 82674, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3e19a9800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/m_71LU70zG8G78x6hYSYf2B3ELc7BGRgbsZokPhgXAY.js line 1 > eval line 3362 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/m_71LU70zG8G78x6hYSYf2B3ELc7BGRgbsZokPhgXAY.js line 1 > eval line 3362 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633680168038	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOw5HqV"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633680168608	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOw5HqV/search.json.mozlz4", (void 0)))
+1633680170648	Marionette	INFO	Listening on port 33411
+1633680170689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 84719, MediaDecoderStateMachine #1] WARNING: 7f6a7d4edc80 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 84719, MediaDecoderStateMachine #1] WARNING: Decoder=7f6a7d49b000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 84719, MediaDecoderStateMachine #1] WARNING: Decoder=7f6a7d49b000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 84719, MediaDecoderStateMachine #1] WARNING: 7f6a7c99de40 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 84719, MediaDecoderStateMachine #1] WARNING: Decoder=7f6a7d49d000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 84719, MediaDecoderStateMachine #1] WARNING: Decoder=7f6a7d49d000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/m_71LU70zG8G78x6hYSYf2B3ELc7BGRgbsZokPhgXAY.js line 1 > eval line 3226 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/m_71LU70zG8G78x6hYSYf2B3ELc7BGRgbsZokPhgXAY.js line 1 > eval line 3226 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633680473989	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecW6Jb2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633680474846	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecW6Jb2/search.json.mozlz4", (void 0)))
+1633680477028	Marionette	INFO	Listening on port 38301
+1633680477142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 88158, MediaDecoderStateMachine #1] WARNING: 7fe7fe1c32e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 88158, MediaDecoderStateMachine #1] WARNING: Decoder=7fe7f0927800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 88158, MediaDecoderStateMachine #1] WARNING: Decoder=7fe7f0927800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 88158, MediaDecoderStateMachine #1] WARNING: 7fe7fd4b84a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 88158, MediaDecoderStateMachine #1] WARNING: Decoder=7fe7f0927000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 88158, MediaDecoderStateMachine #1] WARNING: Decoder=7fe7f0927000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 2416 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 2416 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633680595396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileCuHwB4"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633680595960	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCuHwB4/search.json.mozlz4", (void 0)))
+1633680597995	Marionette	INFO	Listening on port 45415
+1633680598060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 89726, MediaDecoderStateMachine #1] WARNING: 7f0d57ee62e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 89726, MediaDecoderStateMachine #1] WARNING: Decoder=7f0d5ba53400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 89726, MediaDecoderStateMachine #1] WARNING: Decoder=7f0d5ba53400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 89726, MediaDecoderStateMachine #1] WARNING: 7f0d57ee62e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 89726, MediaDecoderStateMachine #1] WARNING: Decoder=7f0d5ba53800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 89726, MediaDecoderStateMachine #1] WARNING: Decoder=7f0d5ba53800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 972 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 972 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633680651105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexPNZls"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633680651495	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexPNZls/search.json.mozlz4", (void 0)))
+1633680653619	Marionette	INFO	Listening on port 44829
+1633680653748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 90578, MediaDecoderStateMachine #1] WARNING: 7f5aa4638ac0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 90578, MediaDecoderStateMachine #1] WARNING: Decoder=7f5aaf512800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 90578, MediaDecoderStateMachine #1] WARNING: Decoder=7f5aaf512800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 90578, MediaDecoderStateMachine #1] WARNING: 7f5aa4638ac0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 90578, MediaDecoderStateMachine #1] WARNING: Decoder=7f5aaf518400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 90578, MediaDecoderStateMachine #1] WARNING: Decoder=7f5aaf518400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 6856 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 6856 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633680732564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGwyYk2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633680733330	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGwyYk2/search.json.mozlz4", (void 0)))
+1633680747244	Marionette	INFO	Listening on port 35923
+1633680747314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633681368690	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilei4zDqO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633681369398	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilei4zDqO/search.json.mozlz4", (void 0)))
+1633681371905	Marionette	INFO	Listening on port 33979
+1633681371962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 98231, MediaDecoderStateMachine #1] WARNING: 7f30c5a064a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 98231, MediaDecoderStateMachine #1] WARNING: Decoder=7f30b9c0e800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 98231, MediaDecoderStateMachine #1] WARNING: Decoder=7f30b9c0e800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 98231, MediaDecoderStateMachine #1] WARNING: 7f30b9a9c120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 98231, MediaDecoderStateMachine #1] WARNING: Decoder=7f30b9c0f400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 98231, MediaDecoderStateMachine #1] WARNING: Decoder=7f30b9c0f400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 1160 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 1160 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633681525122	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileP4DFzw"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633681525517	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileP4DFzw/search.json.mozlz4", (void 0)))
+1633681527655	Marionette	INFO	Listening on port 36133
+1633681527756	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 420, MediaDecoderStateMachine #1] WARNING: 7f2fbf137ba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 420, MediaDecoderStateMachine #1] WARNING: Decoder=7f2fcfed3400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 420, MediaDecoderStateMachine #1] WARNING: Decoder=7f2fcfed3400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 420, MediaDecoderStateMachine #1] WARNING: 7f2fbf137c80 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 420, MediaDecoderStateMachine #1] WARNING: Decoder=7f2fd1441800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 420, MediaDecoderStateMachine #1] WARNING: Decoder=7f2fd1441800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 6436 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 6436 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633681562537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex0ZFnd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633681562958	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex0ZFnd/search.json.mozlz4", (void 0)))
+1633681565149	Marionette	INFO	Listening on port 34459
+1633681565222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 1082, MediaDecoderStateMachine #1] WARNING: 7f57fa607820 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 1082, MediaDecoderStateMachine #1] WARNING: Decoder=7f57faf33800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 1082, MediaDecoderStateMachine #1] WARNING: Decoder=7f57faf33800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 1082, MediaDecoderStateMachine #1] WARNING: 7f57fa1a1740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 1082, MediaDecoderStateMachine #1] WARNING: Decoder=7f580dd51000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 1082, MediaDecoderStateMachine #1] WARNING: Decoder=7f580dd51000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 4279 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 4279 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633683077362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevQMi22"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633683078469	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevQMi22/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633684958199	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo2FrSe"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633684958980	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo2FrSe/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+1633685128948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledpXpdE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633685129835	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledpXpdE/search.json.mozlz4", (void 0)))
+1633685172322	Marionette	INFO	Listening on port 43449
+1633685172424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633685233890	Marionette	INFO	Stopped listening on port 34459
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1633685460572	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileleICgN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633685461727	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileleICgN/search.json.mozlz4", (void 0)))
+1633685506535	Marionette	INFO	Listening on port 33309
+1633685506681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633685800826	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileR5MFRu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633685801528	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR5MFRu/search.json.mozlz4", (void 0)))
+1633685803256	Marionette	INFO	Listening on port 44837
+1633685803356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 1276, MediaDecoderStateMachine #1] WARNING: 7fe6f4662900 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 1276, MediaDecoderStateMachine #1] WARNING: Decoder=7fe6f498d800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 1276, MediaDecoderStateMachine #1] WARNING: Decoder=7fe6f498d800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 1276, MediaDecoderStateMachine #1] WARNING: 7fe6e7ff04a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 1276, MediaDecoderStateMachine #1] WARNING: Decoder=7fe6f498e800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 1276, MediaDecoderStateMachine #1] WARNING: Decoder=7fe6f498e800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 1054 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 1054 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633685868787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiley5jgHy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633685869258	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley5jgHy/search.json.mozlz4", (void 0)))
+1633685870804	Marionette	INFO	Listening on port 44855
+1633685870921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 2111, MediaDecoderStateMachine #1] WARNING: 7fccad0e4820 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 2111, MediaDecoderStateMachine #1] WARNING: Decoder=7fccad614400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 2111, MediaDecoderStateMachine #1] WARNING: Decoder=7fccad614400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 2111, MediaDecoderStateMachine #1] WARNING: 7fccad0a2200 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 2111, MediaDecoderStateMachine #1] WARNING: Decoder=7fccad613800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 2111, MediaDecoderStateMachine #1] WARNING: Decoder=7fccad613800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 764 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 764 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+1633685951155	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletRNVgI"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633685951904	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletRNVgI/search.json.mozlz4", (void 0)))
+1633685956013	Marionette	INFO	Listening on port 36973
+1633685956412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 3141, MediaDecoderStateMachine #1] WARNING: 7fd994aee120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 3141, MediaDecoderStateMachine #1] WARNING: 7fd994aee120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 3141, MediaDecoderStateMachine #1] WARNING: Decoder=7fd994b24c00 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 3141, MediaDecoderStateMachine #1] WARNING: Decoder=7fd994b24c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 3141, MediaDecoderStateMachine #1] WARNING: Decoder=7fd994b28800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 3141, MediaDecoderStateMachine #1] WARNING: Decoder=7fd994b28800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 5533 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 5533 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+xcb_connection_has_error() returned true
+[Parent 3034, IPC I/O Parent] WARNING: FileDescriptorSet destroyed with unconsumed descriptors: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/ipc/chromium/src/chrome/common/file_descriptor_set_posix.cc:19
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633685997592	Marionette	INFO	Stopped listening on port 36973
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1633686112790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePj3k7B"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633686113469	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePj3k7B/search.json.mozlz4", (void 0)))
+1633686114962	Marionette	INFO	Listening on port 38535
+1633686115008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3f6de4660 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fc169400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fc169400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3f6de4580 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fc16c000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fc16c000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 6988 > eval line 1 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 6988 > eval line 1 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e64f3040 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5d8f740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e6f3d3c0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5d8f9e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5d8f200 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3f826c740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e49773c0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5d8f580 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+1633686234838	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDd5yDo"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633686235250	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDd5yDo/search.json.mozlz4", (void 0)))
+1633686237039	Marionette	INFO	Listening on port 35437
+1633686237151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5d8f9e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a986bf20 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90aa767c00 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90aa767c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a986b200 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90aa767000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90aa767000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 1011 > eval, line 1: WebGL warning: <Create>: WebglAllowWindowsNativeGl:false restricts context creation on this system.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6hT0VtOiLu9-LOvcCmXY2zCEL5ayT6jMkvIn30Y9geQ.js line 1 > eval line 1011 > eval, line 1: Failed to create WebGL context: WebGL creation failed: 
+* WebglAllowWindowsNativeGl:false restricts context creation on this system. ()
+* Exhausted GL driver options. (FEATURE_FAILURE_WEBGL_EXHAUSTED_DRIVERS)
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a16fe740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e4977c80 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a125b4a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e4977900 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0302e40 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e49779e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a125b120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e4977ba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a12913c0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e4977d60 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107e40 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e4977f20 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107d60 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5585120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d0cae40 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5585660 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107200 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+1633686371769	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAhRlPO"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633686373142	Marionette	INFO	Marionette enabled
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e55859e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0302ac0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5585120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0302ba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAhRlPO/search.json.mozlz4", (void 0)))
+xcb_connection_has_error() returned true
+[Child 4611, MediaDecoderStateMachine #1] WARNING: 7fc3e5490660 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 4611, MediaDecoderStateMachine #1] WARNING: Decoder=7fc3fb3af400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+1633686424156	Marionette	INFO	Listening on port 42101
+1633686424424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107580 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107820 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d1079e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107c80 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0302040 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0239040 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0239200 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107d60 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909ffdf2e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909ff86120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909ff862e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107e40 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f90a0302120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107c80 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107c80 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+xcb_connection_has_error() returned true
+[Child 5946, MediaDecoderStateMachine #1] WARNING: 7f909d107ac0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 5946, MediaDecoderStateMachine #1] WARNING: Decoder=7f90b86e6400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+1633686772840	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8vJgcX"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633686773420	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8vJgcX/search.json.mozlz4", (void 0)))
+1633686774971	Marionette	INFO	Listening on port 37435
+1633686775053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633686778407	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1633686778947	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 10972, MediaDecoderStateMachine #1] WARNING: 7f44aa8782e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 10972, MediaDecoderStateMachine #1] WARNING: 7f44aa8782e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59bc00 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59bc00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59b000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59b000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 10972, MediaDecoderStateMachine #1] WARNING: 7f44aa8782e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 10972, MediaDecoderStateMachine #1] WARNING: 7f44aa8782e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59d400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59d400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59c800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 10972, MediaDecoderStateMachine #1] WARNING: Decoder=7f44ab59c800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+1633686825200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileV5BOFj"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633686825565	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV5BOFj/search.json.mozlz4", (void 0)))
+1633686827065	Marionette	INFO	Listening on port 34631
+1633686827136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633689997288	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefDcft9"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633689998526	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefDcft9/search.json.mozlz4", (void 0)))
+1633690006162	Marionette	INFO	Listening on port 36347
+1633690006282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633690016853	Marionette	INFO	Stopped listening on port 37435
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633690019223	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1633690019849	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 37419, MediaDecoderStateMachine #1] WARNING: 7fc7c2bc64a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 37419, MediaDecoderStateMachine #1] WARNING: 7fc7c2bc64a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d436c400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d436c400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d1557400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d1557400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 37419, MediaDecoderStateMachine #1] WARNING: 7fc7c2bc64a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 37419, MediaDecoderStateMachine #1] WARNING: 7fc7c2bc64a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d25f8400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d25f8400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d4371800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 37419, MediaDecoderStateMachine #1] WARNING: Decoder=7fc7d4371800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633691930481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRsh48E"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633691931598	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRsh48E/search.json.mozlz4", (void 0)))
+1633691985795	Marionette	INFO	Listening on port 34205
+1633691985931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633692001103	Marionette	INFO	Stopped listening on port 36347
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390097,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390097,name=PContent::Msg_InitBackground) Channel closing: too late to send/recv, messages will be lost
+
+1633692004592	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+1633692004680	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1633692221330	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileM2tczJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633692222483	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM2tczJ/search.json.mozlz4", (void 0)))
+1633692267710	Marionette	INFO	Listening on port 34929
+1633692267791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633692293666	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 47093, MediaDecoderStateMachine #1] WARNING: 7f41b8c9c740 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 47093, MediaDecoderStateMachine #1] WARNING: Decoder=7f41cbea8000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 47093, MediaDecoderStateMachine #1] WARNING: Decoder=7f41cbea8000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 47093, MediaDecoderStateMachine #1] WARNING: 7f41b8c9c120 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 47093, MediaDecoderStateMachine #1] WARNING: Decoder=7f41cbea8400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 47093, MediaDecoderStateMachine #1] WARNING: Decoder=7f41cbea8400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+1633692599724	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevI4qJP"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633692600328	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevI4qJP/search.json.mozlz4", (void 0)))
+1633692602241	Marionette	INFO	Listening on port 44973
+1633692602370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633692608942	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 50400, MediaDecoderStateMachine #1] WARNING: 7f27acd77d60 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27b9348000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27b9348000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 50400, MediaDecoderStateMachine #1] WARNING: 7f27acd77d60 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 50400, MediaDecoderStateMachine #1] WARNING: 7f27acd774a0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27b93e5000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27b93e5000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27bde09400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27bde09400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 50400, MediaDecoderStateMachine #1] WARNING: 7f27acd77d60 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27b93e2800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 50400, MediaDecoderStateMachine #1] WARNING: Decoder=7f27b93e2800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+1633693579530	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiZYhHn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633693580216	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiZYhHn/search.json.mozlz4", (void 0)))
+1633693582805	Marionette	INFO	Listening on port 41303
+1633693582917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js, line 7: TypeError: r is undefined
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 53653, MediaDecoderStateMachine #1] WARNING: 7fd72a8642e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 53653, MediaDecoderStateMachine #1] WARNING: 7fd72a8642e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 53653, MediaDecoderStateMachine #1] WARNING: 7fd72a8642e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 53653, MediaDecoderStateMachine #1] WARNING: 7fd72a8642e0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72e6eb400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72e6eb400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72e6ea400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72e6ea400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72e6ea000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72e6ea000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72c638400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 53653, MediaDecoderStateMachine #1] WARNING: Decoder=7fd72c638400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633704629753	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRfuHam"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633704649134	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRfuHam/search.json.mozlz4", (void 0)))
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1633704661305	Marionette	INFO	Stopped listening on port 44973
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1633704661671	Marionette	INFO	Listening on port 38203
+1633704661821	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1633704688864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDC1xFc"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633704689353	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDC1xFc/search.json.mozlz4", (void 0)))
+1633704691643	Marionette	INFO	Listening on port 33265
+1633704691713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633704697525	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js, line 7: TypeError: r is undefined
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1633705088892	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTz5xZ1"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1633705089391	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTz5xZ1/search.json.mozlz4", (void 0)))
+1633705091474	Marionette	INFO	Listening on port 38039
+1633705091548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1633705095919	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
