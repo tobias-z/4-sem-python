@@ -939,3 +939,40 @@ JavaScript error: , line 0: uncaught exception: Object
 JavaScript error: , line 0: uncaught exception: Object
 console.log: WebExtensions: reset-default-search: starting.
 console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634038730668	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexUhdI7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libpci missing
+[GFX1-]: glxtest: Unable to open a connection to the X server
+[GFX1-]: glxtest: libEGL initialize failed
+[GFX1-]: No GPUs detected via PCI
+1634038731616	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexUhdI7/search.json.mozlz4", (void 0)))
+1634038733990	Marionette	INFO	Listening on port 39759
+1634038734118	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634038739479	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+xcb_connection_has_error() returned true
+[Child 67180, MediaDecoderStateMachine #1] WARNING: 7f07b734dba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b8ca5000 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b8ca5000 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+xcb_connection_has_error() returned true
+[Child 67180, MediaDecoderStateMachine #1] WARNING: 7f07b5148ba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 67180, MediaDecoderStateMachine #1] WARNING: 7f07b5148ba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+xcb_connection_has_error() returned true
+[Child 67180, MediaDecoderStateMachine #1] WARNING: 7f07b5148ba0 OpenCubeb() failed to init cubeb: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/AudioStream.cpp:324
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b9a96800 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b9a96800 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b8ca4c00 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b8ca4c00 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b8ca3400 [OnMediaSinkAudioError]: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3980
+[Child 67180, MediaDecoderStateMachine #1] WARNING: Decoder=7f07b8ca3400 Decode error: NS_ERROR_DOM_MEDIA_MEDIASINK_ERR (0x806e000b) - OnMediaSinkAudioError: file /build/firefox-8YBQ4x/firefox-91.0.1+build1/dom/media/MediaDecoderStateMachine.cpp:3541
